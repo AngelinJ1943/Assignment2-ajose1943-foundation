@@ -34,6 +34,14 @@ footer {
     font-size: 0.8rem;
 }
 
+/* Change color for "ANGELIN JOSE © 2025" in footer */
+footer p {
+    color: #77060f;
+    /* Change this color as needed */
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 /* Biography Section */
 #biography {
     display: flex;
@@ -145,7 +153,7 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #050505;
 }
 
 /* Media Queries for responsive design */
