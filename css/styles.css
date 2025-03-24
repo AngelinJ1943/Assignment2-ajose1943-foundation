@@ -18,7 +18,7 @@ body {
 header,
 footer {
     text-align: center;
-    background: linear-gradient(to right, #eeefec, #a22424);
+    background: linear-gradient(to right, #eeefec, #fcf7f7);
     color: white;
     padding: 1rem;
 }
@@ -27,7 +27,7 @@ h1 {
     font-size: 3rem;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
-    color: #ffcc00;
+    color: #8e8c87;
 }
 
 footer {
@@ -44,7 +44,7 @@ footer {
 
 #biography blockquote {
     font-style: italic;
-    border-left: 5px solid #555;
+    border-left: 5px solid #020202;
     padding-left: 1rem;
     margin: 1rem 0;
 }
@@ -73,7 +73,7 @@ figcaption {
 /* Quote Section */
 #quote {
     font-style: italic;
-    border-left: 5px solid #555;
+    border-left: 5px solid #0d0c0c;
     padding-left: 1rem;
     margin: 1rem 0;
 }
