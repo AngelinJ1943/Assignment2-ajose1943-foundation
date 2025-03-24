@@ -28,7 +28,6 @@ h1 {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     color: #ffcc00;
-    /* example color */
 }
 
 footer {
@@ -54,16 +53,13 @@ figure {
     width: 70%;
     text-align: center;
     background-color: #f2f2f2;
-    /* background for the figure */
     padding: 1rem;
     border-radius: 10px;
 }
 
 figure img {
     width: 100%;
-    /* Adjusted width to fit better */
     max-width: 300px;
-    /* Make the image smaller */
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -170,8 +166,6 @@ button:hover {
 
 /* Additional Styling Requirements */
 
-/* 1. Selectors: Multiple, Class, ID, Descendant, Child Selectors */
-
 /* Multiple selector */
 h1,
 h2,
@@ -201,14 +195,14 @@ p {
     padding: 1rem;
 }
 
-/* 2. Font adjustments for headings */
+/* Font adjustments for headings */
 h1 {
     font-family: 'Georgia', serif;
     font-weight: bold;
     color: #2c3e50;
 }
 
-/* 3. Quote styling */
+/* Quote styling */
 q {
     font-family: 'Times New Roman', serif;
     font-weight: lighter;
@@ -219,7 +213,7 @@ q {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* 4. Figure and image borders */
+/* Figure and image borders */
 figure {
     border: 1px solid #333;
     border-radius: 10px;
@@ -230,13 +224,13 @@ figure img {
     border-radius: 10px;
 }
 
-/* 5. Styling the video/iframe */
+/* Styling the video/iframe */
 iframe {
     border: 3px solid #333;
     border-radius: 10px;
 }
 
-/* 6. Link and list adjustments in aside */
+/* Link and list adjustments in aside */
 aside ul li a {
     font-size: 1.2rem;
     color: #2980b9;
@@ -247,7 +241,7 @@ aside ul li a:hover {
     color: #e74c3c;
 }
 
-/* 7. Form labels and inputs */
+/* Form labels and inputs */
 label {
     font-size: 1rem;
     color: #333;
