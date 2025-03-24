@@ -50,3 +50,72 @@
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
     </main>
+
+    <aside>
+        <section>
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Nelson_Mandela" target="_blank"
+                        title="Nelson Mandela Wikipedia">Nelson Mandela - Wikipedia</a></li>
+                <li><a href="https://www.nelsonmandela.org/" target="_blank" title="Nelson Mandela Foundation">Nelson
+                        Mandela Foundation</a></li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <p>Nelson Mandela was awarded the Nobel Peace Prize in 1993 for his efforts in ending apartheid.</p>
+        </section>
+    </aside>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name" class="form-label">Full Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required autofocus><br>
+
+            <label for="emailDropdown" class="form-label">Select Email Provider:</label>
+            <select id="emailDropdown" name="emailDropdown" class="form-control" onchange="toggleOtherEmail()" required>
+                <option value="" selected>--Select--</option>
+                <option value="gmail.com">Gmail</option>
+                <option value="yahoo.com">Yahoo</option>
+                <option value="outlook.com">Outlook</option>
+                <option value="icloud.com">iCloud</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <input type="email" id="otherEmail" name="email" class="form-control" placeholder="Enter your email"
+                style="display: none;"><br>
+
+            <label for="PHONE" class="form-label">PHONE NUMBER:</label>
+            <input type="text" id="PHONE" name="PHONE" class="form-control" required autofocus><br>
+
+            <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" class="form-control" rows="4" required></textarea><br>
+
+            <button type="submit" class="form-control">Submit</button>
+        </form>
+    </section>
+
+    <footer id="bottom">
+        <a href="#top">Top of page</a>
+        <p>ANGELIN JOSE &copy; 2025</p>
+    </footer>
+
+    <script>
+        function toggleOtherEmail() {
+            var emailDropdown = document.getElementById("emailDropdown");
+            var otherEmailInput = document.getElementById("otherEmail");
+
+            if (emailDropdown.value === "other") {
+                otherEmailInput.style.display = "block";
+                otherEmailInput.setAttribute("required", "true");
+            } else {
+                otherEmailInput.style.display = "none";
+                otherEmailInput.removeAttribute("required");
+            }
+        }
+    </script>
+</body>
+
+</html>
