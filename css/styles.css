@@ -188,7 +188,7 @@ p {
 
 /* Descendant selector */
 #biography blockquote p {
-    color: #555;
+    color: #0a0a0a;
 }
 
 /* Child selector */
@@ -208,7 +208,7 @@ q {
     font-family: 'Times New Roman', serif;
     font-weight: lighter;
     font-style: italic;
-    color: #7f8c8d;
+    color: #0b0b0b;
     border: 2px solid #ccc;
     padding: 0.5rem;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -252,7 +252,7 @@ input,
 textarea,
 select {
     font-size: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #141313;
 }
 
 /* Responsive Form Adjustments */
